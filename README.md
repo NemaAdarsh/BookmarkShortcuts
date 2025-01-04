@@ -24,10 +24,15 @@ Download or clone this repository to your local machine.
    - The folder should contain `manifest.json`, `background.js`, `popup.html`, and other necessary files.
 3. Your extension should now be loaded and visible in the Chrome extension list.
 
+![image](https://github.com/user-attachments/assets/b554c73d-d5a2-43d2-903f-33bde90c32bf)
+
+
 ### Step 4: Set Keyboard Shortcuts
 1. Go to **chrome://extensions/shortcuts** in Chrome.
 2. Here, you can set the keyboard shortcuts for the extension. The available actions will be listed under **BookmarkShortcuts**.
    - For example, set **Alt+1** to open the first bookmark, **Alt+2** to open the second bookmark, and so on.
+
+![image](https://github.com/user-attachments/assets/c99e3551-57ef-4093-8df1-3611ee48b318)
 
 ### Step 5: Test the Extension
 - After setting the shortcuts, you can test them by pressing the assigned keys (e.g., **Alt+1**, **Alt+2**). This should open the corresponding bookmarks in Chrome.
