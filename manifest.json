@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Opener",
+  "version": "1.0",
+  "description": "Open bookmarks using keyboard shortcuts",
+  "permissions": [
+    "bookmarks"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "open-bookmark-1": {
+      "suggested_key": {
+        "default": "Ctrl+1"
+      },
+      "description": "Open the first bookmark"
+    },
+    "open-bookmark-2": {
+      "suggested_key": {
+        "default": "Ctrl+2"
+      },
+      "description": "Open the second bookmark"
+    },
+    "open-bookmark-3": {
+      "suggested_key": {
+        "default": "Ctrl+3"
+      },
+      "description": "Open the third bookmark"
+    },
+    "open-bookmark-4": {
+      "suggested_key": {
+        "default": "Ctrl+4"
+      },
+      "description": "Open the fourth bookmark"
+    }
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
